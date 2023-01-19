@@ -5,8 +5,7 @@ def jogar():
     print("***Bem vindo ao jogo de Forca***")
     print("********************************")
 
-
-    arquivo = open("palavras.txt", "r")
+    arquivo = open("Python-Orientacao-objetos\jogos\palavras.txt", "r")
     palavras = []
 
     for linha in arquivo:
