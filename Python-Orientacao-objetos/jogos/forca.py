@@ -1,5 +1,6 @@
 import random
 
+
 def jogar():
     print("********************************")
     print("***Bem vindo ao jogo de Forca***")
@@ -21,7 +22,7 @@ def jogar():
 
     enforcou = False
     acertou = False
-    erros = 0 
+    erros = 0
 
     print(letras_acertadas)
 
@@ -49,7 +50,6 @@ def jogar():
         print("Você perdeu!!")
     print("Fim do Jogo!!")
 
+
 if(__name__ == "__main__"):
     jogar()
-
-
